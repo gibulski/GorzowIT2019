@@ -5,7 +5,7 @@
              x:Class="GorzowIT2019.MainPage">
 
     <StackLayout Margin="10,20,10,10">
-         Place new controls here 
+
         <Label Text="Welcome to Xamarin.Forms at GorzówIT meeting 14.03.2019!"  
                VerticalOptions="Center" HorizontalOptions="Center"
                />
