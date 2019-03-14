@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:GorzowIT2019"
+             x:Class="GorzowIT2019.MainPage">
+
+    <StackLayout Margin="10,20,10,10">
+         Place new controls here 
+        <Label Text="Welcome to Xamarin.Forms at GorzówIT meeting 14.03.2019!"  
+               VerticalOptions="Center" HorizontalOptions="Center"
+               />
+        <Button Text="Click me!!!" Clicked="Button_Clicked"></Button>
+
+        <Frame BorderColor="Blue" HasShadow="True">
+            <Image Source="Xamarin1.png" Aspect="AspectFit"/>
+        </Frame>
+
+        <Button Text="Otwórz stronę" x:Name="OpenPageButton" Clicked="OpenPageButton_Clicked"></Button>
+        
+    </StackLayout>
+
+</ContentPage>

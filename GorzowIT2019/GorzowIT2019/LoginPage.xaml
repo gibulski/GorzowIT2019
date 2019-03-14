@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GorzowIT2019.LoginPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Spacing="10">
+                <Label HeightRequest="110" HorizontalOptions="FillAndExpand" 
+                          Text="LoginPage" TextColor="Blue" FontSize="30" 
+                          HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                <Entry  Margin="20,40,20,0" HeightRequest="50" 
+                        Placeholder="Email" BackgroundColor="LightBlue">
+                </Entry>
+                <Entry Margin="20,0,20,0" 
+                        HeightRequest="50" IsPassword="true"
+                        Placeholder="Password" BackgroundColor="LightBlue">
+                </Entry>
+                <Button x:Name="LoginButton" Margin="20,0,20,0" 
+                         HeightRequest="50" TextColor="White" 
+                         Text="Login"  
+                         HorizontalOptions="FillAndExpand" BackgroundColor="Blue"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
